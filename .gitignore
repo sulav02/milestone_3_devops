@@ -1,0 +1,94 @@
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Environment & secrets
+# =========================
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+
+# =========================
+# Jenkins
+# =========================
+jenkins/
+*.jenkins
+workspace/
+build/
+
+# =========================
+# Docker
+# =========================
+*.tar
+docker-compose.override.yml
+
+# =========================
+# Ansible
+# =========================
+*.retry
+inventory.ini
+host_vars/
+group_vars/
+
+# =========================
+# Kubernetes
+# =========================
+*.kubeconfig
+kubeconfig
+secrets.yaml
+
+# =========================
+# Node / Frontend (future-proof)
+# =========================
+node_modules/
+dist/
+build/
+.cache/
+
+# =========================
+# Python (future-proof)
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# Backup files
+# =========================
+*.old
+*.orig
+
+
+# =========================
+# Nginx
+# =========================
+nginx.conf
