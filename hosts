@@ -1,2 +1,2 @@
 [docker]
-20.44.53.215 ansible_user=docker
+20.44.53.215 ansible_user=jenkins
