@@ -38,6 +38,7 @@
 
 - name: Automate docker connection pipeline
   hosts: docker
+  remote_user: jenkins
   become: true
 
   vars_files:
