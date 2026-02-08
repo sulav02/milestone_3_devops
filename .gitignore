@@ -92,7 +92,5 @@ venv/
 # Nginx
 # =========================
 nginx.conf
-
 inventory.ini
-
 deploy_site.yml
